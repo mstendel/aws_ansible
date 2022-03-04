@@ -1,0 +1,12 @@
+---
+  - name: Test s3
+    hosts: local
+    connection: local
+    tasks:
+      - name: Create new bucket
+        aws_s3:
+          bucket: matest0815
+          mode: create
+          region: eu-central-1
+
+          

@@ -1,0 +1,4 @@
+---
+- name: FInd all Groups
+  community.aws.ec2.asg_info:
+  register:  asgs
