@@ -1,6 +1,6 @@
 ---
   - name: Launch an EC2 Instance
-    hosts: local
+    hosts: localhost
     connection: local
     gather_facts: true
     tags: provisioning
